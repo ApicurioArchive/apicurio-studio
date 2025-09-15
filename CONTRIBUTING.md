@@ -1,9 +1,18 @@
-# Guidelines for Contributing to this Project
+# ⚠️ DEPRECATED: Guidelines for Contributing to this Project
 
-**Want to contribute? Great!** 
-We try to make it easy, and all contributions, even the smaller ones, are more than welcome.
-This includes bug reports, fixes, documentation, examples... 
-But first, read this page (including the small print at the end).
+> **This project has been deprecated and is no longer accepting contributions.**
+>
+> **Apicurio Studio functionality has been integrated into [Apicurio Registry](https://github.com/Apicurio/apicurio-registry).**
+>
+> **If you want to contribute to Studio functionality, please contribute to the Apicurio Registry project instead:**
+> - Repository: https://github.com/Apicurio/apicurio-registry
+> - Contributing Guide: https://github.com/Apicurio/apicurio-registry/blob/main/CONTRIBUTING.md
+>
+> See [MIGRATION.md](MIGRATION.md) for information about migrating from standalone Studio to Registry's integrated Studio feature.
+
+## Historical Contributing Information
+
+The information below is preserved for historical reference only. **No new contributions are being accepted for this deprecated project.**
 
 * [Legal](#legal)
 * [Reporting an issue](#reporting-an-issue)

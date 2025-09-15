@@ -1,6 +1,8 @@
 {
   "name": "@apicurio/apicurio-studio-ui",
   "private": true,
+  "deprecated": "This package is deprecated. Apicurio Studio functionality has been integrated into Apicurio Registry. See: https://github.com/Apicurio/apicurio-registry",
+  "description": "[DEPRECATED] Apicurio Studio UI Application - functionality moved to Apicurio Registry",
   "version": "1.1.0-Dev",
   "type": "module",
   "license": "Apache-2.0",

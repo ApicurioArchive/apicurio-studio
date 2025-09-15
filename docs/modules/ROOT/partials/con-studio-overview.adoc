@@ -1,7 +1,16 @@
 [id="studio-overview"]
-= What is {studio-long}?
+= ⚠️ DEPRECATED: What was {studio-long}?
 
-{studio-long} enables you to design schemas and API definitions. It provides a web console to make it easy for API owners and developers to manage the content of event schemas and API definitions.
+[IMPORTANT]
+====
+**{studio-long} has been deprecated and is no longer actively maintained.**
+
+**{studio} functionality has been integrated into https://github.com/Apicurio/apicurio-registry[Apicurio Registry] as a built-in feature.**
+
+For new installations and ongoing development, please use Apicurio Registry which includes all Studio capabilities.
+====
+
+{studio-long} enabled you to design schemas and API definitions. It provided a web console to make it easy for API owners and developers to manage the content of event schemas and API definitions.
 
 ifndef::apicurio-studio-downstream[]
 You can use {studio} to create a schema or API design from a simple template, use one of the detailed templates provided, or import an existing design to edit it.

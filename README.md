@@ -3,14 +3,23 @@
 
 ![Apicurio Studio](.assets/apicurio_studio_logo_default.svg)
 
-# The apicurio-studio project (Open Source API Design Studio)
+# ⚠️ DEPRECATED: The apicurio-studio project (Open Source API Design Studio)
+
+> **This project has been deprecated and is no longer actively maintained.**
+>
+> **Apicurio Studio functionality has been integrated into [Apicurio Registry](https://github.com/Apicurio/apicurio-registry) as a built-in feature.**
+>
+> For new installations and ongoing development, please use Apicurio Registry which includes all Studio capabilities and active development.
+>
+> **Migration Information:** See [MIGRATION.md](MIGRATION.md) for guidance on migrating from standalone Apicurio Studio to Apicurio Registry's integrated Studio feature.
 
 ## Summary
 
-This is the official Git repository for the Apicurio Studio project:  http://www.apicur.io/studio
+This is the official Git repository for the **deprecated** Apicurio Studio project:  http://www.apicur.io/studio
 
-The Apicurio Studio project is an API design studio that can be used to create
-new or edit existing API designs (using specifications like OpenAPI or AsyncAPI).
+**This standalone version of Apicurio Studio is deprecated.** The API design studio functionality has been fully integrated into [Apicurio Registry](https://github.com/Apicurio/apicurio-registry) and is actively maintained there.
+
+The Apicurio Studio project was an API design studio that could be used to create new or edit existing API designs (using specifications like OpenAPI or AsyncAPI). This functionality is now available as part of Apicurio Registry's UI.
 
 ## Get the code
 

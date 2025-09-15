@@ -1,5 +1,15 @@
+## ⚠️ DEPRECATED
+
+> **This UI module is part of the deprecated Apicurio Studio project.**
+>
+> **Apicurio Studio functionality has been integrated into [Apicurio Registry](https://github.com/Apicurio/apicurio-registry).**
+>
+> For new installations and ongoing development, please use Apicurio Registry which includes all Studio capabilities.
+>
+> See [../MIGRATION.md](../MIGRATION.md) for migration guidance.
+
 ## Description
-This module is the user interface for Apicurio Studio.  It is a single page React application
+This module was the user interface for Apicurio Studio.  It is a single page React application
 using the following technology stack:
 
 * Node/npm

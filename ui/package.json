@@ -1,8 +1,10 @@
 {
     "name": "@apicurio/apicurio-studio",
     "private": true,
+    "deprecated": "This package is deprecated. Apicurio Studio functionality has been integrated into Apicurio Registry. See: https://github.com/Apicurio/apicurio-registry",
     "version": "1.1.0-Dev",
     "type": "module",
+    "description": "[DEPRECATED] Apicurio Studio UI - functionality moved to Apicurio Registry",
     "scripts": {
         "postinstall": "npm install --prefix ./ui-app && npm install --prefix ./ui-editors",
         "clean-app": "npm run clean --prefix ./ui-app",

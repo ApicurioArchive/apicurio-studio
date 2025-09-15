@@ -1,6 +1,14 @@
-# Apicurio Studio UI
+# ⚠️ DEPRECATED: Apicurio Studio UI
 
-Apicurio Studio UI is a React based Single Page Application based on Patternfly 5.
+> **This UI application is part of the deprecated Apicurio Studio project.**
+>
+> **Apicurio Studio functionality has been integrated into [Apicurio Registry](https://github.com/Apicurio/apicurio-registry).**
+>
+> For new installations and ongoing development, please use Apicurio Registry which includes all Studio capabilities.
+>
+> See [../../MIGRATION.md](../../MIGRATION.md) for migration guidance.
+
+Apicurio Studio UI was a React based Single Page Application based on Patternfly 5.
 
 ## Requirements
 This project requires node version 16.x.x and npm version > 8.3.x.

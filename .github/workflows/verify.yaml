@@ -1,24 +1,17 @@
 name: Build & Verify
 
+# DEPRECATED: This project has been deprecated and CI/CD has been disabled
+# Apicurio Studio functionality is now part of Apicurio Registry
+# See: https://github.com/Apicurio/apicurio-registry
+
 on:
-  push:
-    paths-ignore:
-      - '.gitignore'
-      - 'LICENSE'
-      - 'README*'
-      - 'CODE_OF_CONDUCT*'
-      - 'CONTRIBUTING.md'
-      - 'dco.txt'
-    branches: [main]
-  pull_request:
-    paths-ignore:
-      - '.gitignore'
-      - 'LICENSE'
-      - 'README*'
-      - 'CODE_OF_CONDUCT*'
-      - 'CONTRIBUTING.md'
-      - 'dco.txt'
-    branches: [main]
+  # Disabled - project is deprecated
+  workflow_dispatch:
+    inputs:
+      force_run:
+        description: 'Force run workflow (deprecated project)'
+        required: false
+        default: 'false'
 
 concurrency:
   # Only run once for latest commit per ref and cancel other (previous) runs.
@@ -32,10 +25,23 @@ env:
 
 jobs:
 
-  build-test:
-    name: Build and Test
+  deprecated-notice:
+    name: Deprecated Project Notice
     runs-on: ubuntu-latest
-    if: github.repository_owner == 'apicurio'
+    if: github.event.inputs.force_run == 'true'
+    steps:
+      - name: Project Deprecated Notice
+        run: |
+          echo "⚠️  This project has been deprecated!"
+          echo "Apicurio Studio functionality is now part of Apicurio Registry."
+          echo "Please visit: https://github.com/Apicurio/apicurio-registry"
+          echo "For migration guidance, see the MIGRATION.md file in this repository."
+          exit 1
+
+  build-test:
+    name: Build and Test (Deprecated)
+    runs-on: ubuntu-latest
+    if: false  # Disabled for deprecated project
     steps:
       - name: Checkout Code with Ref '${{ github.ref }}'
         uses: actions/checkout@v3
@@ -119,6 +125,6 @@ jobs:
   # that we just built and pushed in the steps above.
   trigger-3scale-deploy:
     needs: [build-test]
-    if: github.event_name == 'push'
+    if: false  # Disabled for deprecated project
     uses: apicurio/apicurio-3scale-gitops/.github/workflows/deploy_latest_studio.yml@main
     secrets: inherit

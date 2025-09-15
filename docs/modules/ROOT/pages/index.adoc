@@ -2,11 +2,26 @@ include::partial$shared/all-attributes.adoc[]
 
 [id="apicurio-studio"]
 
-= {studio} documentation
+= ⚠️ DEPRECATED: {studio} documentation
+
+[IMPORTANT]
+====
+**This project has been deprecated and is no longer actively maintained.**
+
+**{studio} functionality has been integrated into https://github.com/Apicurio/apicurio-registry[Apicurio Registry] as a built-in feature.**
+
+For new installations and ongoing development, please use Apicurio Registry which includes all Studio capabilities and active development.
+
+**Migration Information:** See https://github.com/Apicurio/apicurio-studio/blob/main/MIGRATION.md[MIGRATION.md] for guidance on migrating from standalone {studio} to Apicurio Registry's integrated Studio feature.
+====
+
+== Historical Documentation
+
+The documentation below is preserved for historical reference only. **Please use Apicurio Registry for new deployments.**
 
 Welcome to the {studio} version {studio-version} documentation. Navigate using the left menu.
 
-{studio-long} enables you to design schemas and API definitions. It provides a web console to make it easy for API owners and developers to manage the content of event schemas and API definitions.
+{studio-long} enabled you to design schemas and API definitions. It provided a web console to make it easy for API owners and developers to manage the content of event schemas and API definitions.
 
 ifndef::apicurio-studio-downstream[]
 IMPORTANT: This is a project in early stages of development. It will replace the legacy version of Apicurio Studio with a code-base built from scratch on top of a newer technology stack. As a result, some features that are available in the previous versions are not yet implemented in the new version. For more details, see the https://www.apicur.io/blog/2024/03/22/studio-1.0[Apicurio Studio 1.0: The Awakening] blog post.
